@@ -12,20 +12,21 @@ html,body {
 }
 
 @-webkit-keyframes dont_move{
-	0% {top: 0px; left: -600px; color: white; font-family: sans-serif; font-size: 170px;}
-	100% {top: 0px; left: 100px; color: white; font-family: sans-serif; font-size: 170px;}
+	0% {top: 0px; left: -600px; color: white; font-size: 130px;}
+	100% {top: 0px; left: 100px; color: white; font-size: 130px;}
 }
 
 #dont {
 	position:absolute;
 	-webkit-animation: dont_move 1s forwards;
 	cubic-bezier (1,0,0,1);
+	font-family: "arial";
 }
 
 
 @-webkit-keyframes callyour_move{
-	0% {top: 0px; left: 2000px; top: 200px; color: white; font-family: sans-serif; font-size: 70px;}
-	100% {top: 0px; left: 400px; top: 200px; color: white; font-family: sans-serif; font-size: 70px;}
+	0% {top: 0px; left: 2000px; top: 200px; color: white; font-size: 80px;}
+	100% {top: 0px; left: 400px; top: 200px; color: white; font-size: 80px;}
 }
 
 #callyour {
@@ -33,14 +34,15 @@ html,body {
 	-webkit-animation: callyour_move 1s forwards;
 	cubic-bezier (1,0,0,1);
 	left: 2000px;
-	width: 300px;
+	width: 500px;
+	font-family: "arial";
 	animation-delay: 1s;
 }
 
 
 @-webkit-keyframes kids_move{
-	0% {top: 0px; left: -600px; top: 250px; color: white; font-family: sans-serif; font-size: 145px;}
-	100% {top: 0px; left: 100px; top: 250px; color: white; font-family: sans-serif; font-size: 145px;}
+	0% {top: 0px; left: -600px; top: 250px; color: white; font-size: 130px;}
+	100% {top: 0px; left: 100px; top: 250px; color: white; font-size: 130px;}
 }
 
 #kids {
@@ -48,13 +50,14 @@ html,body {
 	-webkit-animation: kids_move 1s forwards;
 	cubic-bezier (1,0,0,1);
 	left: -2000px;
+	font-family: "arial";
 	animation-delay: 2s;
 }
 
 
 @-webkit-keyframes smart_move{
-	0% {top: 0px; left: 2000px; top: 400px; color: white; font-family: sans-serif; font-size: 100px;}
-	100% {top: 0px; left: 400px; top: 400px; color: white; font-family: sans-serif; font-size: 100px;}
+	0% {top: 0px; left: 2000px; top: 400px; color: white; font-size: 140px;}
+	100% {top: 0px; left: 400px; top: 400px; color: white; font-size: 140px;}
 }
 
 #smart {
@@ -62,6 +65,7 @@ html,body {
 	-webkit-animation: smart_move 1s forwards;
 	cubic-bezier (1,0,0,1);
 	left: 2000px;
+	font-family: "arial";
 	animation-delay: 3s;
 }
 
@@ -152,6 +156,7 @@ html,body {
 	background-color: orange;
 	-webkit-animation: image_move 2s forwards;
 	animation-delay: 13s;
+	background-repeat: no-repeat;
 }
 
 
@@ -166,6 +171,7 @@ html,body {
 	height: 500px;
 	opacity: 0;
 	background: url(../pictures/study1.jpg);
+	background-repeat: no-repeat;
 	border-radius: 100%;
 	position: absolute;
 	-webkit-animation: top_grow 2s forwards;
@@ -207,8 +213,9 @@ html,body {
 	text-align: center;
 	animation-delay: 14s;
 	top: -1000px;
-	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: #ffd876;
+	text-shadow: 0.3em 0.3em 0.4em orange;
+
+
 }
 
 @-webkit-keyframes p3_move{
@@ -236,7 +243,7 @@ html,body {
 @-webkit-keyframes puzzle_move{
 	0% {opacity: 0; -webkit-transform: rotate(0deg); right: -500px; top: 70%;}
 	90% {opacity: 1; -webkit-transform: rotate(360deg); }
-	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 50%; top: 70%;}
+	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 43%; top: 70%;}
 }
 
 #puzzle{
@@ -245,6 +252,7 @@ html,body {
 	-webkit-animation: puzzle_move 3s forwards;
 	animation-delay: 20s;
 	z-index: 2;
+	transform: translate(-50%, -50%);
 }
 
 
@@ -338,10 +346,9 @@ html,body {
 
 }
 
-
 @-webkit-keyframes bulb2_move{
 	0% {bottom: -1000px;}
-	100% {bottom: -45%;	opacity: 1;}
+	100% {bottom: 50%;	opacity: 1;}
 }
 
 #bulb2 {
@@ -352,10 +359,10 @@ html,body {
 	height: 600px;
 	left: 250px;
 	opacity: 0;
+	top: 50%;
 	z-index: 6;
 	transform: translate(-50%, -50%);
 }
-
 
 /*
 FOR PORTFOLIO SITE! :D
