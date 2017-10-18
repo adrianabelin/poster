@@ -236,9 +236,9 @@ html,body {
 	animation-delay: 20s;
 	z-index: 2;
 	color: transparent;
-	top: 50%;
+	top: 30%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -30%);
 }
 
 
