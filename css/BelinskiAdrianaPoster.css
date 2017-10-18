@@ -350,7 +350,7 @@ html,body {
 }
 
 @-webkit-keyframes bulb2_move{
-	0% {bottom: -1000px;}
+	0% {opacity: 0;}
 	100% {top: 50%;	opacity: 1;}
 }
 
@@ -360,11 +360,11 @@ html,body {
 	cubic-bezier (1,0,0,1);
 	animation-delay: 31s;
 	height: 600px;
-	left: 20%;
+	left: 10%;
 	opacity: 0;
 	top: 50%;
 	z-index: 6;
-	transform: translate(-50%, -20%);
+	transform: translate(-10%, -50%);
 }
 
 /*
