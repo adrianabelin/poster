@@ -1,0 +1,311 @@
+html,body {
+	width: 100%;
+	height: 100%;
+
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+@-webkit-keyframes dont_move{
+	0% {top: 0px; left: -600px; color: white; font-family: sans-serif; font-size: 170px;}
+	100% {top: 0px; left: 100px; color: white; font-family: sans-serif; font-size: 170px;}
+}
+
+#dont {
+	position:absolute;
+	-webkit-animation: dont_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+}
+
+
+@-webkit-keyframes callyour_move{
+	0% {top: 0px; left: 2000px; top: 200px; color: white; font-family: sans-serif; font-size: 70px;}
+	100% {top: 0px; left: 400px; top: 200px; color: white; font-family: sans-serif; font-size: 70px;}
+}
+
+#callyour {
+	position:absolute;
+	-webkit-animation: callyour_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	left: 2000px;
+	width: 300px;
+	animation-delay: 1s;
+}
+
+
+@-webkit-keyframes kids_move{
+	0% {top: 0px; left: -600px; top: 250px; color: white; font-family: sans-serif; font-size: 145px;}
+	100% {top: 0px; left: 100px; top: 250px; color: white; font-family: sans-serif; font-size: 145px;}
+}
+
+#kids {
+	position:absolute;
+	-webkit-animation: kids_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	left: -2000px;
+	animation-delay: 2s;
+}
+
+
+@-webkit-keyframes smart_move{
+	0% {top: 0px; left: 2000px; top: 400px; color: white; font-family: sans-serif; font-size: 100px;}
+	100% {top: 0px; left: 400px; top: 400px; color: white; font-family: sans-serif; font-size: 100px;}
+}
+
+#smart {
+	position:absolute;
+	-webkit-animation: smart_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	left: 2000px;
+	animation-delay: 3s;
+}
+
+@-webkit-keyframes p1_move{
+	0% {top: 0px; top: -1000px;  right: 50px; color: white; font-family: sans-serif; font-size: 30px;}
+	40% {top: 0px; top: -500px;  right: 50px; color: white; font-family: sans-serif; font-size: 30px;}
+	100% {position: absolute; top: 30px; right: 50px; color: white; font-family: sans-serif; font-size: 30px;}
+}
+
+#p1 {
+	position:absolute;
+	-webkit-animation: p1_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	width: 480px;
+	height: 150px;
+	text-align: center;
+	animation-delay: 4s;
+	top: -1000px;
+}
+
+@-webkit-keyframes bulb_move{
+	0% {bottom: -1000px;  right: 180px;}
+	40% {bottom: -500px;  right: 180px;}
+	100% {position: absolute; bottom: 35px; right: 180px;}
+}
+
+#bulb {
+	position:absolute;
+	-webkit-animation: bulb_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	text-align: center;
+	animation-delay: 4s;
+	bottom: -1000px;
+	height: 300px;
+	width: auto;
+}
+
+@-webkit-keyframes circle_move{
+	0% {width: 0px; height: 0px; border-radius: 100%; top: 330px; right: 250px;}
+	100% {width: 2200px; height: 2200px; border-radius: 0%; top: -750px;
+		right: -150px;}
+}
+
+#circle {
+	position: absolute;
+	-webkit-animation: circle_move 4s forwards;
+  width: 0px;
+  height: 0px;
+  background: #ffeb5a;
+  border-radius: 100%;
+	top: 330px;
+	right: 250px;
+	-webkit-transition: 0.3s;
+	animation-delay: 13s;
+}
+
+@-webkit-keyframes colorblock1_move{
+	0% {background-color: #404096;}
+	100% {background-color: #43cbff;}
+
+}
+
+.colorblock1{
+	background-color: #404096;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: colorblock1_move 1s forwards;
+	animation-delay: 4.5s;
+}
+
+
+
+
+
+@-webkit-keyframes image_move{
+		0% {opacity: 0; width: 100%; height: 100%;}
+	100% {width: 100%; height: 100%; opacity: 1; }
+}
+
+#image{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../pictures/study1.jpg);
+	background-blend-mode: screen;
+	background-color: orange;
+	-webkit-animation: image_move 2s forwards;
+	animation-delay: 14s;
+}
+
+
+
+@-webkit-keyframes top_grow {
+	0% { width: 200px; height: 200px; opacity: 0;}
+	100% { width: 500px; height: 500px; opacity: 1;}
+}
+
+#top {
+	width: 500px;
+	height: 500px;
+	opacity: 0;
+	background: url(../pictures/study1.jpg);
+	border-radius: 100%;
+	position: absolute;
+	-webkit-animation: top_grow 2s forwards;
+	animation-delay: 14s;
+}
+
+@-webkit-keyframes p2_move{
+	0% {top: 0px; top: -1000px;  right: 150px; color: #404096; font-family: sans-serif; font-size: 30px;}
+	40% {top: 0px; top: -500px;  right: 150px; color: #404096; font-family: sans-serif; font-size: 30px;}
+	100% {position: absolute; top: 150px; right: 150px; color: #404096; font-family: sans-serif; font-size: 30px;}
+}
+
+#p2 {
+	position:absolute;
+	-webkit-animation: p2_move 1s forwards;
+	cubic-bezier (1,0,0,1);
+	width: 480px;
+	height: 150px;
+	text-align: center;
+	animation-delay: 15s;
+	top: -1000px;
+}
+
+@-webkit-keyframes p3_move{
+	0% {top: 0px; top: -1000px;  right: 400px; color: white; font-family: sans-serif; font-size: 60px;}
+	40% {top: 0px; top: -500px;  right: 400px; color: white; font-family: sans-serif; font-size: 60px;}
+	100% {position: absolute; top: 150px; right: 400px; color: white; font-family: sans-serif; font-size: 60px;}
+}
+
+#p3 {
+	position:absolute;
+	-webkit-animation: p3_move 3s forwards;
+	cubic-bezier (1,0,0,1);
+	width: 600px;
+	height: 150px;
+	text-align: center;
+	animation-delay: 21s;
+	top: -1000px;
+	z-index: 2;
+
+}
+
+@-webkit-keyframes square_move{
+	0% { background-color: #404096; top: -3000px}
+	100% {background-color: #404096; top: 0px}
+}
+
+.square{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-animation: square_move 3s forwards;
+	animation-delay: 21s;
+	z-index: 1;
+}
+
+@-webkit-keyframes square2_move{
+	0% { background-color: #43cbff; left: -3000px}
+	100% {background-color: #43cbff; left: 0px}
+}
+
+.square2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-animation: square2_move 3s forwards;
+	animation-delay: 25s;
+	z-index: 3;
+}
+
+@-webkit-keyframes p4_move{
+	0% {top: 150px; left: -3000px;  color: white; font-family: sans-serif; font-size: 40px;}
+	40% {top: 150px; left: 400px;  color: white; font-family: sans-serif; font-size: 40px;}
+	100% {position: absolute; top: 150px; left: 400px;  color: white; font-family: sans-serif; font-size: 40px;}
+}
+
+#p4 {
+	position:absolute;
+	-webkit-animation: p4_move 3s forwards;
+	cubic-bezier (1,0,0,1);
+	width: 600px;
+	height: 250px;
+	text-align: center;
+	animation-delay: 26s;
+	top: -1000px;
+	z-index: 4;
+}
+
+
+@-webkit-keyframes colorblock2_move{
+	0% {background-color: transparent;}
+	100% {background-color: #ffeb5a;}
+
+}
+
+.colorblock2{
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: colorblock2_move 1s forwards;
+	animation-delay: 30s;
+	z-index: 5;
+}
+
+@-webkit-keyframes p5_move{
+	0% {top: -1000px; left: 350px;  color: #5a41d6; font-family: sans-serif; font-size: 40px;}
+	100% {position: absolute; top: 250px; left: 350px;  color: #5a41d6; font-family: sans-serif; font-size: 40px;}
+}
+
+#p5 {
+	position:absolute;
+	-webkit-animation: p5_move 3s forwards;
+	cubic-bezier (1,0,0,1);
+	width: 600px;
+	height: 250px;
+	text-align: center;
+	animation-delay: 30s;
+	top: -1000px;
+	z-index: 6;
+
+}
+
+
+/*
+FOR PORTFOLIO SITE! :D
+@-webkit-keyframes dont_move{
+	0% {top: 0px; color: white; font-family: sans-serif; font-size: 200px;}
+	100% {top: 300px;}
+}
+
+#dont {
+	position:absolute;
+	-webkit-animation: dont_move 1s alternate infinite;
+	cubic-bezier (1,0,0,1);
+}
+*/
