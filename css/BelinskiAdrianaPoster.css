@@ -311,7 +311,7 @@ html,body {
 #p4 {
 	-webkit-animation: p4_move 2s forwards;
 	cubic-bezier (1,0,0,1);
-	width: 600px;
+	width: 800px;
 	height: 250px;
 	text-align: center;
 	animation-delay: 25s;
