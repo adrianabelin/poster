@@ -42,7 +42,7 @@ html,body {
 
 @-webkit-keyframes kids_move{
 	0% {top: 0px; left: -600px; top: 40%; color: white; font-size: 130px;}
-	100% {top: 0px; left: 5%; top: 40%; color: white; font-size: 130px;}
+	100% {top: 0px; left: 5%; top: 43%; color: white; font-size: 130px;}
 }
 
 #kids {
@@ -245,7 +245,7 @@ html,body {
 @-webkit-keyframes puzzle_move{
 	0% {opacity: 0; -webkit-transform: rotate(0deg); right: -500px; top: 70%;}
 	90% {opacity: 1; -webkit-transform: rotate(360deg); }
-	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 43%; top: 70%;}
+	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 50%; top: 70%;}
 }
 
 #puzzle{
@@ -254,7 +254,7 @@ html,body {
 	-webkit-animation: puzzle_move 3s forwards;
 	animation-delay: 20s;
 	z-index: 2;
-	transform: translate(-50%, -50%);
+	transform: translate(-70%, -50%); /*43*/
 }
 
 
