@@ -86,16 +86,16 @@ html,body {
 }
 
 @-webkit-keyframes p1_move{
-	0% {top: 0px; top: -1000px;  right: 5%; color: white; font-family: sans-serif; font-size: 30px;}
-	40% {top: 0px; top: -500px;  right: 5%; color: white; font-family: sans-serif; font-size: 30px;}
-	100% {position: absolute; top: 5%; right: 5%; color: white; font-family: sans-serif; font-size: 30px;}
+	0% {top: 0px; top: -1000px;  right: 5%; color: white; font-family: sans-serif; font-size: 50px;}
+	40% {top: 0px; top: -500px;  right: 5%; color: white; font-family: sans-serif; font-size: 50px;}
+	100% {position: absolute; top: 5%; right: 5%; color: white; font-family: sans-serif; font-size: 50px;}
 }
 
 #p1 {
 	position:absolute;
 	-webkit-animation: p1_move 1s forwards;
 	cubic-bezier (1,0,0,1);
-	width: 480px;
+	width: 600px;
 	height: 150px;
 	text-align: center;
 	animation-delay: 4s;
@@ -114,7 +114,7 @@ html,body {
 	cubic-bezier (1,0,0,1);
 	animation-delay: 4s;
 	bottom: -1000px;
-	height: 300px;
+	height: 400px;
 	width: auto;
 }
 
@@ -304,8 +304,8 @@ html,body {
 }
 
 @-webkit-keyframes p4_move{
-	0% {left: -3000px;  color: white; font-family: sans-serif; font-size: 40px;}
-	100% {position: absolute; color: white; font-family: sans-serif; font-size: 40px;}
+	0% {left: -3000px;  color: white; font-family: sans-serif; font-size: 60px;}
+	100% {position: absolute; color: white; font-family: sans-serif; font-size: 60px;}
 }
 
 #p4 {
