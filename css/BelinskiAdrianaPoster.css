@@ -364,7 +364,7 @@ html,body {
 	opacity: 0;
 	top: 50%;
 	z-index: 6;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -20%);
 }
 
 /*
