@@ -41,8 +41,8 @@ html,body {
 
 
 @-webkit-keyframes kids_move{
-	0% {top: 0px; left: -600px; top: 45%; color: white; font-size: 130px;}
-	100% {top: 0px; left: 5%; top: 45%; color: white; font-size: 130px;}
+	0% {top: 0px; left: -600px; top: 40%; color: white; font-size: 130px;}
+	100% {top: 0px; left: 5%; top: 40%; color: white; font-size: 130px;}
 }
 
 #kids {
@@ -56,8 +56,8 @@ html,body {
 
 
 @-webkit-keyframes smart_move{
-	0% {left: 2000px; bottom: 5%; color: white; font-size: 140px;}
-	100% {left: 25%; bottom: 5%; color: white; font-size: 140px;}
+	0% {left: 2000px; top: 95%; color: white; font-size: 140px;}
+	100% {left: 25%; top: 95%; color: white; font-size: 140px;}
 }
 
 #smart {
