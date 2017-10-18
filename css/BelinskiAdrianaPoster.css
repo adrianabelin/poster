@@ -236,7 +236,7 @@ html,body {
 @-webkit-keyframes puzzle_move{
 	0% {opacity: 0; -webkit-transform: rotate(0deg); right: -500px; top: 70%;}
 	90% {opacity: 1; -webkit-transform: rotate(360deg); }
-	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 40%; top: 70%;}
+	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 50%; top: 70%;}
 }
 
 #puzzle{
