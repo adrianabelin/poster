@@ -157,7 +157,7 @@ html,body {
 	background-color: orange;
 	background-size: 100% auto;
 	-webkit-animation: image_move 2s forwards;
-	animation-delay: 0s;
+	animation-delay: 13s;
 	background-repeat: no-repeat;
 }
 
@@ -177,7 +177,7 @@ html,body {
 	border-radius: 100%;
 	position: absolute;
 	-webkit-animation: top_grow 2s forwards;
-	animation-delay: 0s;
+	animation-delay: 13s;
 }
 
 
