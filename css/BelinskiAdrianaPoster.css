@@ -20,22 +20,7 @@ html,body {
 	position:absolute;
 	-webkit-animation: dont_move 1s forwards;
 	cubic-bezier (1,0,0,1);
-	font-family: "arial";
-}
-
-@-webkit-keyframes callyour_move{
-	0% {top: 0px; left: 2000px; top: 30%; color: white; font-size: 80px;}
-	100% {top: 0px; left: 25%; top: 30%; color: white; font-size: 80px;}
-}
-
-#callyour {
-	position:absolute;
-	-webkit-animation: callyour_move 1s forwards;
-	cubic-bezier (1,0,0,1);
-	left: 2000px;
-	width: 500px;
-	font-family: "arial";
-	animation-delay: 1s;
+	font-family: "Helvetica";
 }
 
 
@@ -51,7 +36,7 @@ html,body {
 	cubic-bezier (1,0,0,1);
 	left: 2000px;
 	width: 500px;
-	font-family: "arial";
+	font-family: 'Heebo', sans-serif;
 	animation-delay: 1s;
 }
 
@@ -66,7 +51,7 @@ html,body {
 	-webkit-animation: kids_move 1s forwards;
 	cubic-bezier (1,0,0,1);
 	left: -2000px;
-	font-family: "arial";
+	font-family: 'Heebo', sans-serif;
 	animation-delay: 2s;
 }
 
@@ -74,6 +59,7 @@ html,body {
 @-webkit-keyframes smart_move{
 	0% {left: 2000px; top: 65%; color: white; font-size: 140px;}
 	100% {left: 25%; top: 65%; color: white; font-size: 140px;}
+
 }
 
 #smart {
@@ -81,20 +67,21 @@ html,body {
 	-webkit-animation: smart_move 1s forwards;
 	cubic-bezier (1,0,0,1);
 	left: 2000px;
-	font-family: "arial";
+	font-family: 'Heebo', sans-serif;
 	animation-delay: 3s;
 }
 
 @-webkit-keyframes p1_move{
-	0% {top: 0px; top: -1000px;  right: 5%; color: white; font-family: serif; font-size: 30px;}
-	40% {top: 0px; top: -500px;  right: 5%; color: white; font-family: serif; font-size: 30px;}
-	100% {position: absolute; top: 5%; right: 5%; color: white; font-family: serif; font-size: 30px;}
+	0% {top: 0px; top: -1000px;  right: 5%; color: white; font-family: serif; font-size: 28px;}
+	40% {top: 0px; top: -500px;  right: 5%; color: white; font-family: serif; font-size: 28px;}
+	100% {position: absolute; top: 5%; right: 5%; color: white; font-family: serif; font-size: 28px;}
 }
 
 #p1 {
 	position:absolute;
 	-webkit-animation: p1_move 1s forwards;
 	cubic-bezier (1,0,0,1);
+	font-family: 'Halant', serif;
 	width: 500px;
 	height: 150px;
 	text-align: center;
@@ -103,9 +90,9 @@ html,body {
 }
 
 @-webkit-keyframes bulb_move{
-	0% {bottom: -1000px;  right: 15%;}
-	40% {bottom: -500px;  right: 15%;}
-	100% {position: absolute; bottom: 5%; right: 15%;}
+	0% {bottom: -1000px;  right: 17%;}
+	40% {bottom: -500px;  right: 17%;}
+	100% {position: absolute; bottom: 5%; right: 17%;}
 }
 
 #bulb {
@@ -114,7 +101,7 @@ html,body {
 	cubic-bezier (1,0,0,1);
 	animation-delay: 4s;
 	bottom: -1000px;
-	height: 350px;
+	height: 325px;
 	width: auto;
 }
 
@@ -139,7 +126,7 @@ html,body {
 
 @-webkit-keyframes colorblock1_move{
 	0% {background-color: #404096;}
-	100% {background-color: #43cbff;}
+	100% {background-color: #14bdfd;}
 
 }
 
@@ -155,7 +142,6 @@ html,body {
 }
 
 
-
 @-webkit-keyframes image_move{
 	0% {opacity: 0;}
 	100% {opacity: 1; }
@@ -169,14 +155,13 @@ html,body {
 	opacity: 0;
 	position: absolute;
 	background: url(../pictures/study1.jpg);
-	background-blend-mode: screen;
-	background-color: orange;
+	background-blend-mode: overlay;
+	background-color: #fdd414;
 	background-size: 100% auto;
 	-webkit-animation: image_move 2s forwards;
 	animation-delay: 13s;
 	background-repeat: no-repeat;
 }
-
 
 
 @-webkit-keyframes top_grow {
@@ -188,7 +173,7 @@ html,body {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: url(../pictures/study1.jpg);
+	background: url(../pictures/study3.png);
 	background-repeat: no-repeat;
 	border-radius: 100%;
 	position: absolute;
@@ -205,6 +190,7 @@ html,body {
 #p2 {
 	position:absolute;
 	-webkit-animation: p2_move 2s forwards;
+	font-family: 'Halant', serif;
 	cubic-bezier (1,0,0,1);
 	width: 480px;
 	height: 150px;
@@ -212,39 +198,37 @@ html,body {
 	z-index: 1;
 	animation-delay: 14s;
 	top: -1000px;
-
 }
 
 
 @-webkit-keyframes p2p_move{
-	0% {top: -1000px;  right: -10%; color: white; font-family: serif; font-size: 30px;}
-	100% {position: absolute; top: 50%; right: -10%; color: white; font-family: serif; font-size: 30px; transform: translate(-50%, -50%);}
+	0% {top: -1000px;  right: -10%; color: #404096; font-family: serif; font-size: 30px;}
+	100% {position: absolute; top: 50%; right: -10%; color: #404096; font-family: serif; font-size: 30px; transform: translate(-50%, -50%);}
 }
 
 #p2p {
 	position:absolute;
 	-webkit-animation: p2p_move 2s forwards;
+	font-family: 'Halant', serif;
 	cubic-bezier (1,0,0,1);
 	width: 480px;
 	height: 150px;
 	text-align: center;
 	animation-delay: 14s;
 	top: -1000px;
-	text-shadow: 0.3em 0.3em 0.4em orange;
-
-
 }
 
 @-webkit-keyframes p3_move{
-	0% {top: -1000px; right: 400px; color: white; font-family: serif; font-size: 70px;}
-	40% {top: -500px; right: 400px; color: white; font-family: serif; font-size: 70px;}
-	100% {position: absolute; right: 400px; color: white; font-family: serif; font-size: 70px;}
+	0% {top: -1000px; right: 400px; color: white; font-size: 70px;}
+	40% {top: -500px; right: 400px; color: white; font-size: 70px;}
+	100% {position: absolute; right: 400px; color: white; font-size: 70px;}
 }
 
 #p3 {
 	position:absolute;
 	-webkit-animation: p3_move 3s forwards;
 	cubic-bezier (1,0,0,1);
+	font-family: 'Halant', serif;
 	width: 600px;
 	height: 150px;
 	text-align: center;
@@ -258,13 +242,18 @@ html,body {
 
 
 @-webkit-keyframes puzzle_move{
-	0% {opacity: 0; -webkit-transform: rotate(0deg); right: -500px; top: 70%;}
-	90% {opacity: 1; -webkit-transform: rotate(360deg); }
-	100% {opacity: 1; -webkit-transform: rotate(360deg); right: 43%; top: 70%;}
+	0% {opacity: 0; -webkit-transform: rotate(0deg); right: -300px; top: 70%;}
+	92% {opacity: 1; -webkit-transform: rotate(-390deg); right: 45%; top: 70%;}
+	96% {opacity: 1; -webkit-transform: rotate(-360deg); right: 45%; top: 70%;}
+	97% {opacity: 1; -webkit-transform: rotate(-367deg); right: 45%; top: 70%;}
+	100% {opacity: 1; -webkit-transform: rotate(-360deg); right: 45%; top: 70%;}
 }
 
 #puzzle{
 	opacity: 0;
+	width: 150px;
+	height: 150px;
+	background-size: 100%;
 	position: absolute;
 	-webkit-animation: puzzle_move 3s forwards;
 	animation-delay: 20s;
@@ -289,8 +278,8 @@ html,body {
 }
 
 @-webkit-keyframes square2_move{
-	0% { background-color: #43cbff; left: -3000px}
-	100% {background-color: #43cbff; left: 0px}
+	0% { background-color: #14bdfd; left: -3000px}
+	100% {background-color: #14bdfd; left: 0px}
 }
 
 .square2{
@@ -303,13 +292,14 @@ html,body {
 }
 
 @-webkit-keyframes p4_move{
-	0% {left: -3000px;  color: white; font-family: serif; font-size: 50px;}
-	100% {position: absolute; color: white; font-family: serif; font-size: 50px;}
+	0% {left: -3000px;  color: white; font-size: 45px;}
+	100% {position: absolute; color: white; font-size: 45px;}
 }
 
 #p4 {
 	-webkit-animation: p4_move 2s forwards;
 	cubic-bezier (1,0,0,1);
+	font-family: 'Halant', serif;
 	width: 800px;
 	height: 250px;
 	text-align: center;
@@ -343,20 +333,21 @@ html,body {
 }
 
 @-webkit-keyframes p5_move{
-	0% {top: -1000px; color: #5a41d6; font-family: serif;}
-	100% {	top: 50%; position: absolute;  color: #5a41d6; font-family: serif;}
+	0% {top: -1000px; color: #5a41d6; }
+	100% {	top: 50%; position: absolute;  color: #5a41d6; }
 }
 
 #p5 {
 	position:absolute;
 	-webkit-animation: p5_move 3s forwards;
+	font-family: 'Halant', serif;
 	cubic-bezier (1,0,0,1);
 	width: 600px;
 	height: 250px;
 	text-align: center;
 	animation-delay: 32s;
 	color: transparent;
-	font-size: 50px;
+	font-size: 45px;
 	z-index: 6;
 	top: 50%;
 	left: 70%;
